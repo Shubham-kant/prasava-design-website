@@ -11,9 +11,10 @@ app.use(sassMiddleware({
     dest:'./assets/css',
     debug:true,
     outputStyle:'extended',
-    prefix:'./css'
+    prefix:'/css'
 
 }));
+
 app.use(express.static('assets'));
 //extract style and script from subpages into layouts
 app.set('layout extractStyles',true);
