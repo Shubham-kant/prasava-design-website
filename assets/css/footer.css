@@ -14,7 +14,7 @@
     cursor: pointer;
     margin-top: 1rem; }
     #footer-container #scroll-up i {
-      font-size: 1rem; }
+      font-size: 1.1rem; }
   #footer-container #scroll-up:hover {
     color: black;
     transition: all 0.2s ease-in-out; }
